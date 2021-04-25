@@ -4,6 +4,8 @@ Set up instructions for the workshop.  All that is required ahead of time is a v
 ## PAIRS API key
 You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact ???
 
+Take the API key and create a file called "pairpass.txt" on your own laptop.
+
 ## Create an IBM Cloud account
 
 Click on [https://ibm.biz/COP26-workshop-2021](https://ibm.biz/COP26-workshop-2021)
@@ -20,7 +22,7 @@ You will see a Welcome message, if you wish to have a Tour then click "Show me" 
 
 You are presented with the initial screen of services available for you.  Note : you have what is called a "Lite" account which means that you can have access to the Free/Lite resources of each of the Services and can investigate their functionality without charge.  
 
-For you, we (IBM) have provided additional IBM credit in  a particular account which gives you additional access to Services above the Lite Plan. This is described further down in this README.
+We (IBM) have provided additional IBM credit in  a particular account which gives you additional access to Services above the Lite Plan. This is described further down in this README.
 
 ![login-image](./images/logged-in-user.png)
 
@@ -113,6 +115,10 @@ You will see your project main screen
 
 ![login-image](./images/project-main-screen-ws.png)
 
+On the main screen click "Add to project" and then click on "Data"
+![login-image](./images/project-add-file-ws.png)
+
+You would have been supplied an API key to access PAIRS
 
 ### Import sample Notebook to Watson Studio
 ??? Need sample in github.  
