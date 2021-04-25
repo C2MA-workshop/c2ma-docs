@@ -74,7 +74,44 @@ You will now see the main Watson Studio dashboard
 
 ![login-image](./images/main-ws-dashboard.png)
 
+Click on "New Project"
 
+![login-image](./images/new-project-ws.png)
+
+TODO : need to explain how to get the pairpass.txt file into the Projects area so the Notebooks can access it. Do I do this while creating a the first Project with the very simple Notebook just to test you can connect to PAIRS ?  it depends on how Anne wishes for the teams to work (i.e. one Project, multiple people, multiple Notebooks, one pairpass.txt file that all Notebooks access, so only using one PAIRS API key of one of the people).
+
+Click on "Create an empty project"
+
+![login-image](./images/create-project-empty-ws.png)
+
+Before a project can be create, it needs somewhere to be saved to.  Watson Studio using Cloud Object Storage (COS) to save it's artifacts into.
+
+NOTE : you only need to create the COS storage once and then after that all your projects will be stored in it.
+
+Click "Add"
+
+NOTE : A new Tab will be opened in your browser
+
+![](./images/create-project-empty-add-cos-ws.png)
+
+Leave the Lite Plan as shown and click "Create"
+
+![](./images/create-cos-ws.png)
+
+NOTE : No prompt appears that the storage has been successfully created.  Return back to the Tab where you clicked "Add" and refresh the whole page in your browser
+
+![login-image](./images/cos-done-ws.png)
+
+Enter a project name "test-" followed by your initials or something unique and then click Create
+
+
+Cancel any prompt on a Tour
+
+![login-image](./images/project-test-ws.png)
+
+You will see your project main screen
+
+![login-image](./images/project-main-screen-ws.png)
 
 
 ### Import sample Notebook to Watson Studio
