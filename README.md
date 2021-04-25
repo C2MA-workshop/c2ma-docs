@@ -11,9 +11,13 @@ Click on [https://ibm.biz/COP26-workshop-2021](https://ibm.biz/COP26-workshop-20
 ## 
 ## Setup Watson Studio Service
 
+Login the IBM Cloud
+![login-image](./images/ibm-cloud-login.png)
+
+
 Click on Resources
 
-Type "Watson Stdio"
+Type "Watson Studio"
 
 Click ????
 
