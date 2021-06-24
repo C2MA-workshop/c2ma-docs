@@ -104,8 +104,7 @@ NOTE : No prompt appears that the storage has been successfully created.  Return
 
 ![login-image](./images/cos-done-ws.png)
 
-Enter a project name "test-" followed by your initials or something unique and then click Create
-
+Enter a project name "test-<add something unique>" followed by your initials or something unique and then click "Create"
 
 Cancel any prompt on a Tour
 
@@ -118,7 +117,11 @@ You will see your project main screen
 On the main screen click "Add to project" and then click on "Data"
 ![login-image](./images/project-add-file-ws.png)
 
-You would have been supplied an API key to access PAIRS
+sjk
+
+You would have been supplied an API key to access IBM PAIRS as outlined at the start of this README.  
+
+Click "Browse" and navigate to the location of the pairspass.txt file
 
 ### Import sample Notebook to Watson Studio
 ??? Need sample in github.  
