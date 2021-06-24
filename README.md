@@ -117,14 +117,48 @@ You will see your project main screen
 On the main screen click "Add to project" and then click on "Data"
 ![login-image](./images/project-add-file-ws.png)
 
-sjk
+You will be presented with an option to Upload a file
 
-You would have been supplied an API key to access IBM PAIRS as outlined at the start of this README.  
+![login-image](./images/project-add-pairspass.png)
 
-Click "Browse" and navigate to the location of the pairspass.txt file
+Drag or click Browse to upload your pairspass.txt file
+
+![login-image](./images/project-add-pairspass-file.png)
+
+Check the file has been uploaded succesffuly
+
+![login-image](./images/project-add-pairspass-file-check.png)
+
+Now you need to carry out some project type settings.  Click on the Settings Tab
+
+![settings](./images/project-settings.png)
+
+Scroll down to the Access tokens section and click on "New token +"
+
+![settings](./images/project-settings-new-token.png)
+
+Enter a Name and pcik Editor for "Access role for project" pick Editor and then click Create
+
+![settings](./images/project-settings-new-token-values.png)
+
+View the token 
+
+![settings](./images/project-settings-new-token-view.png)
+
+Cut/paste the valuet to a file on your laptop - we will use this within a Notebook later on
+
+![settings](./images/project-settings-new-token-view-it.png)
+
+Click on the Projects link
+
+![settings](./images/project-id1.png)
+
+Then click on your project (for example test-sjk) and look at the URL of the browser and copy and save away the ProjectID.  Again, this will be used in a Notebook
+
+![settings](./images/project-id2.png)
 
 ### Import sample Notebook to Watson Studio
-??? Need sample in github.  
-Needs to use file method of accesssing the PAIRS system via an API key
+
+
 
 ### Test the Notebook
