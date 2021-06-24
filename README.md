@@ -1,10 +1,16 @@
 # c2ma-Setup Steps
 Set up instructions for the workshop.  All that is required ahead of time is a valid email which you will use to create an IBM Cloud account.
 
-## PAIRS API key
+## PAIRS API key and github
 You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact ???
 
-Take the API key and create a file called "pairpass.txt" on your own laptop.
+Create a file called "pairpass.txt" on your own machine and copy the API key to it
+
+Create a sub-directory of your choice on your own machine and clone the github with the following command :
+
+git clone https://github.com/C2MA-workshop/c2ma-docs.git
+
+We will use some of the files later in this setup guide
 
 ## Create an IBM Cloud account
 
@@ -145,7 +151,7 @@ View the token
 
 ![settings](./images/project-settings-new-token-view.png)
 
-Cut/paste the valuet to a file on your laptop - we will use this within a Notebook later on
+Cut/paste the valuet to a file on your machine - we will use this within a Notebook later on
 
 ![settings](./images/project-settings-new-token-view-it.png)
 
@@ -157,8 +163,43 @@ Then click on your project (for example test-sjk) and look at the URL of the bro
 
 ![settings](./images/project-id2.png)
 
-### Import sample Notebook to Watson Studio
+## Import test Notebook to Watson Studio
+
+Go to your project and click "Add to project +" 
+
+![settings](./images/project-import-notebook1.png)
+
+Select Notebook
+
+![settings](./images/project-import-notebook2.png)
+
+Click "From file" tab and either drag/drop the test-notebook.jpynb from the location on your machine or click "Drag and drop files here or upload" and go to it's location on your machine.  NOTE : the file is under the **test** sub-folder of the cloned repository
+
+In the Select runtime drop down leave the default of "Default Python 3.7 XS (vCPU 8 GB RAM)" but note that this can be changed if you are using up a lot of capacity unit hours allocated to you
+
+Click Create
+
+![settings](./images/project-import-notebook3.png)
+
+The Environment will be initialised - please wait a few moments, you will see a cicular progress icon.
+
+When the Notebook is loaded click on the "Get project details" section and change both the project_id and project_access_token values to the ones you created and saved away earlier.  If you don't change them then (a) any import/export will not work and (b) if you do any exporting of files they will potentially get created in the test users project used to create these steps !!
+
+![settings](./images/project-import-notebook4.png)
+
+Save the project by clicking File -> Save 
+
+![settings](./images/project-import-notebook5.png)
+
+To Run the whole Notebook click on the double arrow icon and click "Restart and Run All Cells" in the prompt that comes up
+
+![settings](./images/project-import-notebook-run-all.png)
+
+A * appears on each of the running cells and if successful then you should see the following at the output on the last cell.  Ignore the GeoPandas message.
 
 
+![settings](./images/project-import-notebook-run-check.png)
 
-### Test the Notebook
+If you see the above outout this proves that you have successfully configured and executed a Notebook against IBM PAIRS.
+
+Please now continue with other Notebooks of this workshop.
