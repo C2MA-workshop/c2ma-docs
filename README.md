@@ -33,7 +33,7 @@ We (IBM) have provided additional IBM credit in  a particular account which give
 ![login-image](./images/logged-in-user.png)
 
 ## 
-## Setup Watson Studio Service
+## Setup Watson Studio Service and create a Project
 
 Login the IBM Cloud
 
@@ -86,8 +86,6 @@ Click on "New Project"
 
 ![login-image](./images/new-project-ws.png)
 
-TODO : need to explain how to get the pairpass.txt file into the Projects area so the Notebooks can access it. Do I do this while creating a the first Project with the very simple Notebook just to test you can connect to PAIRS ?  it depends on how Anne wishes for the teams to work (i.e. one Project, multiple people, multiple Notebooks, one pairpass.txt file that all Notebooks access, so only using one PAIRS API key of one of the people).
-
 Click on "Create an empty project"
 
 ![login-image](./images/create-project-empty-ws.png)
@@ -106,13 +104,13 @@ Leave the Lite Plan as shown and click "Create"
 
 ![](./images/create-cos-ws.png)
 
-NOTE : No prompt appears that the storage has been successfully created.  Return back to the Tab where you clicked "Add" and refresh the whole page in your browser
+NOTE : No prompt appears that the storage has been successfully created.  Return back to the Tab where you clicked "Add" and refresh the whole page in your browser.  The below screen shows **Cloud Object Storage-an **has been created
 
 ![login-image](./images/cos-done-ws.png)
 
 Enter a project name "test-<add something unique>" followed by your initials or something unique and then click "Create"
 
-Cancel any prompt on a Tour
+You might be asked if you wish for a Tour of Watson Studio - cancel any prompt unless you do wish to go on the Tour
 
 ![login-image](./images/project-test-ws.png)
 
