@@ -206,4 +206,4 @@ A * appears on each of the running cells and if successful then you should see t
 
 If you see the above outout this proves that you have successfully configured and executed a Notebook against IBM PAIRS.
 
-Please now continue with other Notebooks of this workshop.
+Please now continue with other Notebooks of this workshop, see https://github.com/C2MA-workshop/c2ma-tutorials
