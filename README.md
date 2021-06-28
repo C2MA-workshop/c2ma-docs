@@ -2,13 +2,19 @@
 Set up instructions for the workshop.  All that is required ahead of time is a valid email which you will use to create an IBM Cloud account.
 
 ## PAIRS API key and github
-You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact ???
+You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact Anne Jones at IBM.
 
 Create a file called "pairpass.txt" on your own machine and copy the API key to it
 
-Create a sub-directory of your choice on your own machine and clone the github with the following command :
+Obtain the files from this github and copy them onto your own machine, there are two ways of carrying this out :
+
+(a) Create a sub-directory of your choice on your own machine and clone the github with the following command :
 
 git clone https://github.com/C2MA-workshop/c2ma-docs.git
+
+(b) Create a sub-directory of your choice on your own machine and then click on Code -> Download ZIP and save the zip file.  Unzip the zip file to be able to access all the files from this github.
+
+![login-image](./images/github-copy-local-machine.png)
 
 We will use some of the files later in this setup guide
 
