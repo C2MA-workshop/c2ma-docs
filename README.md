@@ -147,7 +147,7 @@ Scroll down to the Access tokens section and click on "New token +"
 
 ![settings](./images/project-settings-new-token.png)
 
-Enter a Name and pcik Editor for "Access role for project" pick Editor and then click Create
+Enter a Name and pick Editor for "Access role for project" pick Editor and then click Create
 
 ![settings](./images/project-settings-new-token-values.png)
 
@@ -155,7 +155,7 @@ View the token
 
 ![settings](./images/project-settings-new-token-view.png)
 
-Cut/paste the valuet to a file on your machine - we will use this within a Notebook later on
+Cut/paste the value to a text file on your machine (we will use this within a Notebook later on)
 
 ![settings](./images/project-settings-new-token-view-it.png)
 
