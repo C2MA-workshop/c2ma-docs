@@ -22,7 +22,7 @@ We will use some of the files later in this setup guide
 
 Click on [https://ibm.biz/COP26-workshop-2021](https://ibm.biz/COP26-workshop-2021)
 
-Fill in Account information, email and other information as required.  You will receive a verification code to the email you specified.  Note that this code is only valide for 30 minutes.
+Fill in Account information, email and other information as required.  You will receive a verification code to the email you specified.  Note that this code is only valid for 30 minutes.
 
 Enter the Verification code and then an Personal Information (like password and country). 
 
