@@ -1,7 +1,28 @@
 # c2ma-Setup Steps
 Set up instructions for the workshop.  All that is required ahead of time is a valid email which you will use to create an IBM Cloud account.
 
+## Create an IBM Cloud account
+
+Click on [https://ibm.biz/COP26-workshop-2021](https://ibm.biz/COP26-workshop-2021)
+
+Fill in Account information, email and other information as required.  You will receive a verification code to the email you specified.  Note that this code is only valid for 30 minutes.
+
+Enter the Verification code and then an Personal Information (like password and country). 
+
+Read the IBMid Account Privacy information and if you agree with it, scroll down and click Proceed.
+
+You now have an IBM Cloud account which is linked to your email.
+
+You will see a Welcome message, if you wish to have a Tour then click "Show me" otherwise click "Maybe later".  We recommend to click "Maybe later" for now.
+
+You are presented with the initial screen of services available for you.  Note : you have what is called a "Lite" account which means that you can have access to the Free/Lite resources of each of the Services and can investigate their functionality without charge.
+
+If you have an older IBM ID already then there might be some further setup steps for you to be able to create the Watson Studio Service later on in this setup guide.  Contact Stefan on kwiatks@uk.ibm.com if you have an old account (and cc Anne Jones from IBM as well).
+
+![login-image](./images/logged-in-user.png)
+
 ## PAIRS API key and github
+
 You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact Anne Jones at IBM.
 
 Create a file called "pairpass.txt" on your own machine and copy the API key to it
@@ -18,27 +39,9 @@ git clone https://github.com/C2MA-workshop/c2ma-docs.git
 
 We will use some of the files later in this setup guide
 
-## Create an IBM Cloud account
 
-Click on [https://ibm.biz/COP26-workshop-2021](https://ibm.biz/COP26-workshop-2021)
 
-Fill in Account information, email and other information as required.  You will receive a verification code to the email you specified.  Note that this code is only valid for 30 minutes.
 
-Enter the Verification code and then an Personal Information (like password and country). 
-
-Read the IBMid Account Privacy information and if you agree with it, scroll down and click Proceed.
-
-You now have an IBM Cloud account which is linked to your email.
-
-You will see a Welcome message, if you wish to have a Tour then click "Show me" otherwise click "Maybe later".  We recommend to click "Maybe later" for now.
-
-You are presented with the initial screen of services available for you.  Note : you have what is called a "Lite" account which means that you can have access to the Free/Lite resources of each of the Services and can investigate their functionality without charge.  
-
-We (IBM) have provided additional IBM credit in  a particular account which gives you additional access to Services above the Lite Plan. This is described further down in this README.
-
-![login-image](./images/logged-in-user.png)
-
-## 
 ## Setup Watson Studio Service and create a Project
 
 Login the IBM Cloud
