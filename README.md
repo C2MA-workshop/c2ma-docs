@@ -209,4 +209,8 @@ A * appears on each of the running cells and if successful then you should see t
 
 If you see the above outout this proves that you have successfully configured and executed a Notebook against IBM PAIRS.
 
-Please now continue with other Notebooks of this workshop, see https://github.com/C2MA-workshop/c2ma-tutorials
+Please look out for an email with instructions on how to access the tutorial notebooks for the workshop itself.
+  
+If you are unfamilar with python or would like some practice using Watson Studio ahead of the workshop, we recommend working through this tutorial: https://developer.ibm.com/learningpaths/data-analysis-using-python/data-analysis-in-python-using-pandas/
+  
+ 
