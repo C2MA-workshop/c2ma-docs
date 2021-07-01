@@ -1,5 +1,5 @@
 # c2ma-Setup Steps
-Set up instructions for the workshop.  All that is required ahead of time is a valid email which you will use to create an IBM Cloud account.
+Set up instructions for the workshop.  All that is required ahead of time is a valid institution email which you will use to create an IBM Cloud account. If you have not already created an IBM Cloud account as part of the PAIRS registration process, the details are below. Please use lowercase letters when entering your email address.
 
 ## Create an IBM Cloud account
 
@@ -17,13 +17,13 @@ You will see a Welcome message, if you wish to have a Tour then click "Show me" 
 
 You are presented with the initial screen of services available for you.  Note : you have what is called a "Lite" account which means that you can have access to the Free/Lite resources of each of the Services and can investigate their functionality without charge.
 
-If you have an older IBM ID already then there might be some further setup steps for you to be able to create the Watson Studio Service later on in this setup guide.  Contact Stefan on kwiatks@uk.ibm.com if you have an old account (and cc Anne Jones from IBM as well).
+If you have an older IBM ID already then there might be some further setup steps for you to be able to create the Watson Studio Service later on in this setup guide.  Contact Stefan on kwiatks@uk.ibm.com if you have an old account (and cc anne.jones@ibm.com as well).
 
 ![login-image](./images/logged-in-user.png)
 
 ## PAIRS API key and github
 
-You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact Anne Jones at IBM.
+You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact anne.jones@ibm.com.
 
 Create a file called "pairpass.txt" on your own machine and copy the API key to it
 
