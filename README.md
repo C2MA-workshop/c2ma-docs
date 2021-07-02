@@ -213,4 +213,5 @@ Please look out for an email with instructions on how to access the tutorial not
   
 If you are unfamilar with python or would like some practice using Watson Studio ahead of the workshop, we recommend working through this tutorial: https://developer.ibm.com/learningpaths/data-analysis-using-python/data-analysis-in-python-using-pandas/
   
+Please note that under the free tier of IBM Cloud, you are allocated 50 free CPU hours per month. If you are experimenting with Watson Studio ahead of the workshop, please ensure you have enough hours left (~10) for the workshop sessions.
  
