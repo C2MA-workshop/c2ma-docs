@@ -25,15 +25,18 @@ If you have an older IBM ID already then there might be some further setup steps
 
 You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact Anne Jones at IBM.
 
-Create a file called "pairpass.txt" on your own machine and copy the API key to it
+### Create the PAIRS file on your own machine
 
+Create a file using NotePad (Windows) or TextEdit (MAC) called "pairpass.txt" on your own machine and copy the API key to it.  Do NOT have the words "API key" inside the file but just the API key that you received in an email.
+
+### Copy the github contents to your own machine
 Obtain the files from this github and copy them onto your own machine, there are two ways of carrying this out :
 
-(a) Create a sub-directory of your choice on your own machine and clone the github with the following command :
+Method 1 : Create a sub-directory of your choice on your own machine and clone the github with the following command :
 
 git clone https://github.com/C2MA-workshop/c2ma-docs.git
 
-(b) Create a sub-directory of your choice on your own machine and then click on Code -> Download ZIP and save the zip file.  Unzip the zip file to be able to access all the files from this github.
+Method 2 : Create a sub-directory of your choice on your own machine and then click on Code -> Download ZIP and save the zip file.  Unzip the zip file to be able to access all the files from this github.
 
 ![login-image](./images/github-copy-local-machine.png)
 
