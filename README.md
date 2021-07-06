@@ -1,5 +1,5 @@
 # c2ma-Setup Steps
-Set up instructions for the workshop.  All that is required ahead of time is a valid email which you will use to create an IBM Cloud account.
+Set up instructions for the workshop.  All that is required ahead of time is a valid institution email which you will use to create an IBM Cloud account. If you have not already created an IBM Cloud account as part of the PAIRS registration process, the details are below. Please use lowercase letters when entering your email address.
 
 ## Create an IBM Cloud account
 
@@ -17,13 +17,13 @@ You will see a Welcome message, if you wish to have a Tour then click "Show me" 
 
 You are presented with the initial screen of services available for you.  Note : you have what is called a "Lite" account which means that you can have access to the Free/Lite resources of each of the Services and can investigate their functionality without charge.
 
-If you have an older IBM ID already then there might be some further setup steps for you to be able to create the Watson Studio Service later on in this setup guide.  Contact Stefan on kwiatks@uk.ibm.com if you have an old account (and cc Anne Jones from IBM as well).
+If you have an older IBM ID already then there might be some further setup steps for you to be able to create the Watson Studio Service later on in this setup guide.  Contact Stefan on kwiatks@uk.ibm.com if you have an old account (and cc anne.jones@ibm.com as well).
 
 ![login-image](./images/logged-in-user.png)
 
 ## PAIRS API key and github
 
-You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact Anne Jones at IBM.
+You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact anne.jones@ibm.com.
 
 ### Create the PAIRS file on your own machine
 
@@ -212,4 +212,9 @@ A * appears on each of the running cells and if successful then you should see t
 
 If you see the above outout this proves that you have successfully configured and executed a Notebook against IBM PAIRS.
 
-Please now continue with other Notebooks of this workshop, see https://github.com/C2MA-workshop/c2ma-tutorials
+Please look out for an email with instructions on how to access the tutorial notebooks for the workshop itself.
+  
+If you are unfamilar with python or would like some practice using Watson Studio ahead of the workshop, we recommend working through this tutorial: https://developer.ibm.com/learningpaths/data-analysis-using-python/data-analysis-in-python-using-pandas/
+  
+Please note that under the free tier of IBM Cloud, you are allocated 50 free CPU hours per month. If you are experimenting with Watson Studio ahead of the workshop, please ensure you have enough hours left (~10) for the workshop sessions.
+ 
