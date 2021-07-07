@@ -25,10 +25,6 @@ If you have an older IBM ID already then there might be some further setup steps
 
 You should have been allocated a PAIRS API key against your own email.  If you do not have one then contact anne.jones@ibm.com.
 
-### Create the PAIRS file on your own machine
-
-Create a file using NotePad (Windows) or TextEdit (MAC) called "pairpass.txt" on your own machine and copy the API key to it.  Do NOT have the words "API key" inside the file but just the API key that you received in an email.
-
 ### Copy the github contents to your own machine
 Obtain the files from this github and copy them onto your own machine, there are two ways of carrying this out :
 
@@ -42,8 +38,11 @@ Method 2 : Create a sub-directory of your choice on your own machine and then cl
 
 We will use some of the files later in this setup guide
 
+### Create the PAIRS file on your own machine
 
+NOTE : If you do not yet have an API key then the creation of the txt fle below can be skipped for now - please got to [Setup Watson Studio Service and create a Project](https://github.com/C2MA-workshop/c2ma-docs#setup-watson-studio-service-and-create-a-project)
 
+Create a file using NotePad (Windows) or TextEdit (MAC) called "pairpass.txt" on your own machine and copy the API key to it.  Do NOT have the words "API key" inside the file but just the API key that you received in an email
 
 ## Setup Watson Studio Service and create a Project
 
@@ -126,6 +125,9 @@ You might be asked if you wish for a Tour of Watson Studio - cancel any prompt u
 
 ![login-image](./images/project-test-ws.png)
 
+NOTE : if you have not yet received an API key then skip the step below and return to it when you have the key - continue to [Create a Project Access Token](#create-a-project-access-token)
+
+### Upload the txt file into your Project
 You will see your project main screen
 
 ![login-image](./images/project-main-screen-ws.png)
@@ -145,7 +147,9 @@ Check the file has been uploaded succesffuly
 
 ![login-image](./images/project-add-pairspass-file-check.png)
 
-Now you need to carry out some project type settings.  Click on the Settings Tab
+### Create a Project Access Token
+
+Click on the Settings Tab
 
 ![settings](./images/project-settings.png)
 
@@ -161,7 +165,7 @@ View the token
 
 ![settings](./images/project-settings-new-token-view.png)
 
-Cut/paste the value to a text file on your machine (we will use this within a Notebook later on)
+Cut/paste the value to a new text file on your machine (we will use this within a Notebook later on)
 
 ![settings](./images/project-settings-new-token-view-it.png)
 
@@ -193,7 +197,7 @@ Click Create
 
 The Environment will be initialised - please wait a few moments, you will see a cicular progress icon.
 
-When the Notebook is loaded click on the "Get project details" section and change both the project_id and project_access_token values to the ones you created and saved away earlier.  If you don't change them then (a) any import/export will not work and (b) if you do any exporting of files they will potentially get created in the test users project used to create these steps !!
+When the Notebook is loaded click on the "Get project details" cell and change both the **project\_id** and **project\_access\_token** values to the ones you saved away earlier.  These MUST be changed otherwise any commands that read or write will not be created in your Project.
 
 ![settings](./images/project-import-notebook4.png)
 
@@ -201,20 +205,36 @@ Save the project by clicking File -> Save
 
 ![settings](./images/project-import-notebook5.png)
 
-To Run the whole Notebook click on the double arrow icon and click "Restart and Run All Cells" in the prompt that comes up
+Scroll to the top of the Notebook and run each cell by clicking the ">Run" icon 
 
-![settings](./images/project-import-notebook-run-all.png)
+A * appears next to the cell that is running (it might be so quick that yuo  might not see it) - please wait for all cell to not have a  * next to it but a number (when a number appears it means the cell has finished running)
 
-A * appears on each of the running cells and if successful then you should see the following at the output on the last cell.  Ignore the GeoPandas message.
+![settings](./images/project-notebook-run-single.png)
 
+Make sure no errors are shown as a cell is run
+
+NOTE : if you have still not received an API key then you must stop here and File->Save the project and return to it when you do have the API key
+
+Continue clicking the ">Run" icon
+
+When the the cell containing "from ibmpairs import paw, authentication" is run make sure you get no errors, this is where the pairpass.txt file is used.
+
+![settings](./images/project-notebook-run-pairs-setup.png)
+
+When the query.submit cell is run then a red warning message about GeoPandas is not available - continue to the next Cell
+
+![settings](./images/project-notebook-run-pairs-pandas.png)
+
+When the "query.vdf.tail()" cell is run then the output will be a table (see below).  This proves that you have successfully called PAIRS and is the end of the setup instruction
 
 ![settings](./images/project-import-notebook-run-check.png)
-
-If you see the above outout this proves that you have successfully configured and executed a Notebook against IBM PAIRS.
 
 Please look out for an email with instructions on how to access the tutorial notebooks for the workshop itself.
   
 If you are unfamilar with python or would like some practice using Watson Studio ahead of the workshop, we recommend working through this tutorial: https://developer.ibm.com/learningpaths/data-analysis-using-python/data-analysis-in-python-using-pandas/
   
-Please note that under the free tier of IBM Cloud, you are allocated 50 free CPU hours per month. If you are experimenting with Watson Studio ahead of the workshop, please ensure you have enough hours left (~10) for the workshop sessions.
+Please note that under the free tier of IBM Cloud, you are allocated 50 free Capacity Unit Hours (CUH) hours per month. If you are experimenting with Watson Studio ahead of the workshop, please ensure you have enough hours left (~10) for the workshop sessions  (go to the Environment tab as shown below)
+
+![settings](./images/project-environment-cpu-hrs.png)
+
  
