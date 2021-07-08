@@ -238,3 +238,15 @@ Please note that under the free tier of IBM Cloud, you are allocated 50 free Cap
 ![settings](./images/project-environment-cpu-hrs.png)
 
  
+## Re-open a Project and Notebook
+
+To return to a Notebook navigate to your Notebook
+
+![settings](./images/project-reopen-01.png)
+
+
+
+Click the Edit icon, wait for the Environment to initialise.  You will be back in Edit mode of your Notebook where you can make changes as required
+
+![settings](./images/project-reopen-02.png)
+
