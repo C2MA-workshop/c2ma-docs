@@ -240,7 +240,7 @@ Please note that under the free tier of IBM Cloud, you are allocated 50 free Cap
  
 ## Re-open a Project and Notebook
 
-To return to a Notebook navigate to your Notebook
+To return to a Notebook navigate to your Project/Notebook
 
 ![settings](./images/project-reopen-01.png)
 
